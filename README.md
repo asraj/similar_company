@@ -1,1 +1,2 @@
-# similar _company
+# Similar company (Competitors) identification from description
+This python code is for grouping similar companies from the text description of the company and compare 2 different algorithms – Latent Dirichlet Allocation (LDA) and Hierarchical Dirichlet Process (HDP). The results show that overall LDA algorithm performs better than HDP with F-score of 37%. HDP algorithm performs better for higher recall of 56%. The company description data was obtained from Wikipedia. The algorithm was evaluated by using industry of a company to be the proxy for similarity and using a small set of manually annotated data. 
